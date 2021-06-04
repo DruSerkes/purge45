@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "purge45",
     "description": "A simple chrome extention to purge 45's name from your browser",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "browser_action": {
         "default_icon": {
             "16": "favicon-16x16.png",

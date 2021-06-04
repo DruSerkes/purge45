@@ -1,5 +1,5 @@
 const replacementPhrase = "45";
-const regex = new RegExp(/trump|donald j. trump|donald trump|donald\s*j.*\s*trump|donald \w* trump/, 'gi');
+const regex = new RegExp(/trump|donald j. trump|donald\s*trump|donald\s*j.*\s*trump|donald \w* trump/, 'gi');
 
 /**
  * 
@@ -13,4 +13,4 @@ const purge45 = (element) => {
   };
 };
 
-purge45(document.body);
+purge45(document);
